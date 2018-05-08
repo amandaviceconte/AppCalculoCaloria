@@ -24,7 +24,7 @@ public class Inicio extends AppCompatActivity {
                 Intent it = new Intent(Inicio.this, CalculoIMC.class);
                 startActivity(it);
            }
-        });//Fim da troca de tela;
+        }); //Fim da troca de tela;
 
 
 
