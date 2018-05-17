@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\UVA\\ProgramacaoParaDispositivosMoveis\\AppCalculoCaloria-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
+            "outputFile": "C:\\Users\\Developer\\Desktop\\AppCalculoCaloria\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\amand\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\60895d5e44a7036de139ffefdc9b7e2d\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\Developer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\f735fe9dce857047d1d10e54ead8ef25\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\amand\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\d95d9b67b7490945af120650b420522e\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\Developer\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.1.aar\\0f69df1d056f0974046760b599ae1034\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",

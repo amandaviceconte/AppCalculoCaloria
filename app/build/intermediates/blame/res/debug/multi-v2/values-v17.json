@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\UVA\\ProgramacaoParaDispositivosMoveis\\AppCalculoCaloria-master\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
+            "outputFile": "C:\\Users\\Developer\\Desktop\\AppCalculoCaloria\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\amand\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\60895d5e44a7036de139ffefdc9b7e2d\\res\\values-v17\\values-v17.xml",
+                    "source": "C:\\Users\\Developer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\f735fe9dce857047d1d10e54ead8ef25\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
