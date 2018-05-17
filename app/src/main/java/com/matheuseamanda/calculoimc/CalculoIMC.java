@@ -26,7 +26,6 @@ public class CalculoIMC extends AppCompatActivity {
 
         final EditText pegarPeso = (EditText) findViewById (R.id.pegarPeso);
         final EditText pegarAltura = (EditText) findViewById(R.id.pegarAltura);
-        final TextView result = (TextView) findViewById(R.id.resultadoTeste);
 
         Button calcular = (Button) findViewById(R.id.ButtonCalcular);
 
