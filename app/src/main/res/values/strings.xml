@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">Calculo IMC</string>
+    <string name="app_name">Calculo</string>
+    <string name="resultado">Resultado</string>
+    <string name="imc">IMC</string>
+    <string name="imc18"><![CDATA[< 18,5]]></string>
+    <string name="imc1">18,5</string>
+    <string name="imc2">18,6 a 24,9</string>
+    <string name="imc3">25 a 29,9</string>
+    <string name="imc4">30 a 34,9</string>
+    <string name="imc5">35 a 40</string>
+    <string name="imc6"><![CDATA[> 40]]></string>
+    <string name="classificacao">Classificação</string>
+    <string name="resultado1">Abaixo do peso</string>
+    <string name="resultado2">Peso ideal</string>
+    <string name="resultado3">Acima do peso</string>
+    <string name="resultado4">Obesidade</string>
+    <string name="resultado5">Obesidade Severa</string>
+    <string name="resultado6">Obesidade Mórbida</string>
 </resources>
