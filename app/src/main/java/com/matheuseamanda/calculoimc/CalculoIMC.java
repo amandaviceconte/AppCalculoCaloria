@@ -30,12 +30,9 @@ public class CalculoIMC extends AppCompatActivity {
 
         Button calcular = (Button) findViewById(R.id.ButtonCalcular);
 
-
         calcular.setOnClickListener(new View.OnClickListener(){
             public void onClick(View c)
             {
-
-
                 double peso = Double.parseDouble(pegarPeso.getText().toString());
                 double altura = Double.parseDouble(pegarAltura.getText().toString());
 

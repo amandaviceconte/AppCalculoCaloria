@@ -14,7 +14,6 @@ public class resultado extends AppCompatActivity {
 
         TextView ExibirResultado = (TextView) findViewById(R.id.FinalResult);
 
-       // ExibirResultado.setText(""+CalculoIMC.resultadoFinal);
         ExibirResultado.setText(String.format("%.2f", CalculoIMC.resultadoFinal));
     }
 }
