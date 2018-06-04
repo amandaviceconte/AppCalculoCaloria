@@ -32,27 +32,27 @@ public class Calculo_Calorias extends AppCompatActivity {
             @Override
             public void onClick(View v)
             {
-                if(mulher.isChecked())
-                {
-                    double peso = Double.parseDouble(pesoText.getText().toString());
-                    double altura = Double.parseDouble(alturaText.getText().toString());
-                    double idade = Double.parseDouble(idadeText.getText().toString());
 
-                    TMB = 655 + (9.6 * peso) + (1.8 * altura) - (4.7 * idade);
-                    Intent it = new Intent(Calculo_Calorias.this, activity_calorias_resultado.class);
-                    startActivity(it);
-                }
-                if(homem.isChecked())
-                {
-                    double peso = Double.parseDouble(pesoText.getText().toString());
-                    double altura = Double.parseDouble(alturaText.getText().toString());
-                    double idade = Double.parseDouble(idadeText.getText().toString());
+                    if(mulher.isChecked())
+                    {
+                        double peso = Double.parseDouble(pesoText.getText().toString());
+                        double altura = Double.parseDouble(alturaText.getText().toString());
+                        double idade = Double.parseDouble(idadeText.getText().toString());
 
-                    TMB = 66 + (13.7 * peso) + (5 * altura) - (6.8 * idade);
-                    Intent it = new Intent(Calculo_Calorias.this, activity_calorias_resultado.class);
-                    startActivity(it);
+                        TMB = 655 + (9.6 * peso) + (1.8 * altura) - (4.7 * idade);
+                        Intent it = new Intent(Calculo_Calorias.this, activity_calorias_resultado.class);
+                        startActivity(it);
+                    }
+                    if(homem.isChecked()) {
+                            double peso = Double.parseDouble(pesoText.getText().toString());
+                            double altura = Double.parseDouble(alturaText.getText().toString());
+                            double idade = Double.parseDouble(idadeText.getText().toString());
+
+                            TMB = 66 + (13.7 * peso) + (5 * altura) - (6.8 * idade);
+                            Intent it = new Intent(Calculo_Calorias.this, activity_calorias_resultado.class);
+                            startActivity(it);
+                    }
                 }
-            }
-        });
+            });
+        }
     }
-}
