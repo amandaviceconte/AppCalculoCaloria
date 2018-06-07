@@ -21,7 +21,8 @@
         <activity android:name=".Calculo_Calorias" />
         <activity android:name=".Activity_IMC" />
         <activity android:name=".Activity_Calorias" />
-        <activity android:name=".activity_calorias_resultado"></activity>
+        <activity android:name=".activity_calorias_resultado" />
+        <activity android:name=".Historico_IMC"></activity>
     </application>
 
 </manifest>

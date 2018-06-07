@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-28:12
 MERGED from [com.android.support:design:27.1.1] C:\Users\Developer\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\0f69df1d056f0974046760b599ae1034\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Developer\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\f735fe9dce857047d1d10e54ead8ef25\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Developer\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\8a939e89b77195c4ce84428422d76588\AndroidManifest.xml:2:1-11:12
@@ -21,25 +21,25 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Developer\.gra
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Developer\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\21c4f66a56486a2461468af4649313d3\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Developer\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\14cd0b5be987bd67d75e9d30e13d84aa\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Developer\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\08078c0f72ed9f177a12971c556c82a9\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:3:5-44
 		INJECTED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml
 		INJECTED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml
-		ADDED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml
-		ADDED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-28:12
 		INJECTED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:5:5-25:19
+ADDED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:5:5-26:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Developer\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\8a939e89b77195c4ce84428422d76588\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\Developer\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\8a939e89b77195c4ce84428422d76588\AndroidManifest.xml:9:5-20
 	android:supportsRtl
@@ -89,9 +89,13 @@ ADDED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:23:9-55
 	android:name
 		ADDED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:23:19-52
 activity#com.matheuseamanda.calculoimc.activity_calorias_resultado
-ADDED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:24:9-74
+ADDED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:24:9-65
 	android:name
 		ADDED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:24:19-62
+activity#com.matheuseamanda.calculoimc.Historico_IMC
+ADDED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:25:9-60
+	android:name
+		ADDED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:25:19-48
 uses-sdk
 INJECTED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml

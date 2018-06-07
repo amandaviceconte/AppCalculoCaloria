@@ -11,13 +11,14 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.util.Log;
+import java.math.*;
 
-import java.util.Scanner;
 
 public class CalculoIMC extends AppCompatActivity {
     public static double resultadoFinal;
     public String classficacao;
+    public static double resultadoConcatenado;
+
 
     BancoDeDados db = new BancoDeDados(this);
 
@@ -26,6 +27,7 @@ public class CalculoIMC extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculo_imc);
 
+        //Declarando a existencia dos campos de texto peso e altura//
         final TextInputEditText pegarPeso = (TextInputEditText) findViewById (R.id.pegarPeso);
         final TextInputEditText pegarAltura = (TextInputEditText) findViewById(R.id.pegarAltura);
 
@@ -36,11 +38,20 @@ public class CalculoIMC extends AppCompatActivity {
             public void onClick(View c)
             {
                 try {
+                    //Adicionando o valor digitado pelo usuário à variável peso e altura//
                     double peso = Double.parseDouble(pegarPeso.getText().toString());
                     double altura = Double.parseDouble(pegarAltura.getText().toString());
 
+                    //Calculando valor do resultado final e formatando para limitar as casas decimais//
                     resultadoFinal = peso / (altura * altura);
+                    BigDecimal bd = new BigDecimal(resultadoFinal).setScale(1, RoundingMode.HALF_EVEN);
 
+                    /*Não achei nenhuma forma de passar o falor formatado para a activity "resultado"
+                    portanto criei uma variavel static que recebe o valor formatado e eu chamo ela na
+                    activity "resultado". */
+                    resultadoConcatenado = bd.doubleValue();
+
+                    //Definindo a classificação de IMC do usuário de acordo com o valor do resultado final//
                     if(resultadoFinal <= 18.5)
                     {
                         classficacao = "Abaixo do peso";
@@ -66,12 +77,16 @@ public class CalculoIMC extends AppCompatActivity {
                         classficacao = "Obesidade mórbida";
                     }
 
-                    db.addIMC(new imcSQL(peso, altura, resultadoFinal, classficacao));
+                    /* Adicionando valores ao banco de dados e exibindo mensagem de sucesso.
+                       bd.doubleValue pega o valor do resultado final formatado. */
+                    db.addIMC(new imcSQL(peso, altura, bd.doubleValue(), classficacao));
                     Toast.makeText(CalculoIMC.this, "Inserido com sucesso", Toast.LENGTH_LONG).show();
 
+                    //Alternando para tela de resultado//
                     Intent it = new Intent(CalculoIMC.this, resultado.class);
                     startActivity(it);
 
+                // Caso haja algum erro a aplicação gera uma excessão e um mensagem de erro//
                 }catch (ArithmeticException e){
                     Toast.makeText(CalculoIMC.this, "Por favor. Insira os valores corretamente. ", Toast.LENGTH_LONG).show();
                 }catch (Exception ex){
@@ -80,18 +95,12 @@ public class CalculoIMC extends AppCompatActivity {
             }
         });
 
-       /* imcSQL imcsql = new imcSQL();
+        /*imcSQL imcsql = new imcSQL();
         imcsql.setCodigo(1);
+        imcsql.setCodigo(2);
         db.apagarIMC(imcsql);
         Toast.makeText(CalculoIMC.this, "Apagado com sucesso", Toast.LENGTH_LONG).show();
         */
-
-        /*imcSQL imcsql = new imcSQL();
-        imcsql.setCodigo(1);
-        db.selecionarIMC(imcsql);
-
-        Log.d("Selecionado", "Codigo: "+ imcsql.getCodigo() + "Peso: " + imcsql.getPeso() + "Altura: " + imcsql.getAltura()
-        + "Resultado: " + imcsql.getResultado());*/
     }
 
 }

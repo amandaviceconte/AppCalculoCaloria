@@ -7,7 +7,23 @@
     tools:context=".Home_Activity">
 
     <Button
-        android:id="@+id/CalculoCaloriaButton"
+        android:id="@+id/historicoIMCButton"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_dark"
+        android:text="Historico IMC"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.593" />
+
+    <Button
+        android:id="@+id/calculoCaloriaButton"
         android:layout_width="195dp"
         android:layout_height="wrap_content"
         android:background="#ff5900"
@@ -20,7 +36,7 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.52" />
+        app:layout_constraintVertical_bias="0.475" />
 
     <Button
         android:id="@+id/CalculoImcButton"
@@ -36,5 +52,5 @@
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.393" />
+        app:layout_constraintVertical_bias="0.356" />
 </android.support.constraint.ConstraintLayout>

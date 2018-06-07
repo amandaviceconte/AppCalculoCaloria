@@ -17,22 +17,28 @@ public class Home_Activity extends AppCompatActivity {
         Button TelaHomeImcButton = (Button) findViewById(R.id.CalculoImcButton);
         TelaHomeImcButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v)
-            {
+            public void onClick(View v) {
                 Intent it = new Intent(Home_Activity.this, Activity_IMC.class);
                 startActivity(it);
             }
         });
 
-        Button TelaHomeTaxaButton = (Button) findViewById(R.id.CalculoCaloriaButton);
+        Button TelaHomeTaxaButton = (Button) findViewById(R.id.calculoCaloriaButton);
         TelaHomeTaxaButton.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v)
-            {
+            public void onClick(View v) {
                 Intent it = new Intent(Home_Activity.this, Calculo_Calorias.class);
                 startActivity(it);
             }
         });
 
+        Button TelaHistoricoIMC = (Button) findViewById(R.id.historicoIMCButton);
+        TelaHistoricoIMC.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(Home_Activity.this, Historico_IMC.class);
+                startActivity(it);
+            }
+        });
     }
 }
