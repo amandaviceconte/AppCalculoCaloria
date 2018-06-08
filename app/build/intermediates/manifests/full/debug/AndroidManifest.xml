@@ -30,6 +30,7 @@
         <activity android:name="com.matheuseamanda.calculoimc.Activity_Calorias" />
         <activity android:name="com.matheuseamanda.calculoimc.activity_calorias_resultado" />
         <activity android:name="com.matheuseamanda.calculoimc.Historico_IMC" />
+        <activity android:name="com.matheuseamanda.calculoimc.historico_tmb" />
     </application>
 
 </manifest>

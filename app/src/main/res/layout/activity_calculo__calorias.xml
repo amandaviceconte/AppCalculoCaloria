@@ -7,175 +7,198 @@
     tools:context=".Calculo_Calorias">
 
     <TextView
-        android:id="@+id/SexoTitle"
+        android:id="@+id/txtCalculoTMB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="77dp"
+        android:layout_marginLeft="77dp"
+        android:layout_marginRight="77dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="24dp"
+        android:text="Calculo TMB"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lblSexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="123dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="44dp"
         android:text="Sexo:"
-        android:textColor="@android:color/background_dark"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.269"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/radioSexo"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.242" />
-
-    <TextView
-        android:id="@+id/alturaTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="48dp"
-        android:text="Altura:"
-        android:textColor="@android:color/background_dark"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.28"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.557" />
-
-    <TextView
-        android:id="@+id/pesoTitle2"
-        android:layout_width="wrap_content"
-        android:layout_height="48dp"
-        android:text="Peso:"
-        android:textColor="@android:color/background_dark"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.3"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.413" />
+        app:layout_constraintTop_toBottomOf="@+id/txtCalculoTMB" />
 
     <RadioGroup
-        android:id="@+id/SexoOptions"
+        android:id="@+id/radioSexo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
-
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginEnd="129dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="129dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.63"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.26">
+        app:layout_constraintStart_toEndOf="@+id/lblSexo"
+        app:layout_constraintTop_toBottomOf="@+id/txtCalculoTMB">
 
         <RadioButton
-            android:id="@+id/MulherOption"
-            android:layout_width="150dp"
+            android:id="@+id/radioMulher"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Mulher"
-            android:textSize="24sp"
-            tools:layout_editor_absoluteX="137dp"
-            tools:layout_editor_absoluteY="144dp" />
+            android:textSize="16sp" />
 
         <RadioButton
-            android:id="@+id/HomemOption"
-            android:layout_width="match_parent"
-            android:layout_height="33dp"
+            android:id="@+id/radioHomem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:checked="true"
             android:text="Homem"
-            android:textSize="24sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.578"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.209" />
-
+            android:textSize="16sp" />
     </RadioGroup>
 
     <TextView
-        android:id="@+id/IdadeTitle"
+        android:id="@+id/lblPeso"
         android:layout_width="wrap_content"
-        android:layout_height="48dp"
-        android:text="Idade:"
-        android:textColor="@android:color/background_dark"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="171dp"
+        android:layout_marginLeft="172dp"
+        android:layout_marginRight="171dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="20dp"
+        android:text="Peso"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.291"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/alturaTitle"
-        app:layout_constraintVertical_bias="0.184" />
+        app:layout_constraintTop_toBottomOf="@+id/radioSexo" />
 
-    <EditText
-        android:id="@+id/pesoID"
-        android:layout_width="94dp"
-        android:layout_height="56dp"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        android:textColor="@android:color/background_dark"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputPeso"
+        android:layout_width="212dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="99dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.007"
-        app:layout_constraintStart_toEndOf="@+id/pesoTitle2"
-        app:layout_constraintTop_toBottomOf="@+id/SexoOptions"
-        app:layout_constraintVertical_bias="0.036" />
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblPeso">
 
-    <EditText
-        android:id="@+id/alturaID"
-        android:layout_width="94dp"
-        android:layout_height="59dp"
-        android:ems="10"
-        android:gravity="bottom"
-        android:inputType="numberDecimal"
-        android:textColor="@android:color/background_dark"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/alturaTitle"
-        app:layout_constraintTop_toBottomOf="@+id/pesoID"
-        app:layout_constraintVertical_bias="0.07" />
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/txtPeso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite seu peso:"
+            android:inputType="numberDecimal"
+            android:textSize="18sp" />
+    </android.support.design.widget.TextInputLayout>
 
-    <EditText
-        android:id="@+id/idadeID"
-        android:layout_width="94dp"
-        android:layout_height="55dp"
-        android:ems="10"
-        android:inputType="number"
-        android:textColor="@android:color/background_dark"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <TextView
+        android:id="@+id/lblAltura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="168dp"
+        android:layout_marginLeft="168dp"
+        android:layout_marginRight="168dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="4dp"
+        android:text="Altura"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/IdadeTitle"
-        app:layout_constraintTop_toBottomOf="@+id/alturaID"
-        app:layout_constraintVertical_bias="0.169" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputPeso" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputAltura"
+        android:layout_width="212dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="99dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblAltura">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/txtAltura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite sua altura:"
+            android:inputType="numberDecimal" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/lblIdade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="169dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginRight="169dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="8dp"
+        android:text="Idade"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputAltura" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputIdade"
+        android:layout_width="212dp"
+        android:layout_height="51dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginLeft="86dp"
+        android:layout_marginRight="86dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="7dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblIdade">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/txtIdade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite sua idade:"
+            android:inputType="number" />
+    </android.support.design.widget.TextInputLayout>
 
     <Button
-        android:id="@+id/buttonCalcular"
-        android:layout_width="173dp"
+        android:id="@+id/btnCalcular"
+        android:layout_width="189dp"
         android:layout_height="wrap_content"
-        android:background="?attr/actionModeSplitBackground"
+        android:layout_marginEnd="97dp"
+        android:layout_marginLeft="98dp"
+        android:layout_marginRight="97dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorPrimaryDark"
         android:text="Calcular"
         android:textColor="@android:color/background_light"
         android:textSize="18sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/idadeID"
-        app:layout_constraintVertical_bias="0.314" />
-
-    <TextView
-        android:id="@+id/CalculoTitle"
-        android:layout_width="268dp"
-        android:layout_height="47dp"
-        android:text="Calculo Calorias"
-        android:textColor="@android:color/background_dark"
-        android:textSize="36sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/SexoOptions"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.521" />
+        app:layout_constraintTop_toBottomOf="@+id/textInputIdade" />
 
 </android.support.constraint.ConstraintLayout>

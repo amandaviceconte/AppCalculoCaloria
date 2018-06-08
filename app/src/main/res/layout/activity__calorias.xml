@@ -11,15 +11,14 @@
         android:layout_width="355dp"
         android:layout_height="319dp"
         android:gravity="center"
-        android:text="TextView"
+        android:text="A Taxa de Metabolismo Basal é a quantidade mínima de energia (calorias) necessária para manter as funções vitais do organismo em repouso. Essa taxa pode variar de acordo com o sexo, peso, altura, idade e nível de atividade física."
         android:textSize="27sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.442"
-        tools:text="A Taxa de Metabolismo Basal é a quantidade mínima de energia (calorias) necessária para manter as funções vitais do organismo em repouso. Essa taxa pode variar de acordo com o sexo, peso, altura, idade e nível de atividade física." />
+        app:layout_constraintVertical_bias="0.442" />
 
     <TextView
         android:id="@+id/textView16"

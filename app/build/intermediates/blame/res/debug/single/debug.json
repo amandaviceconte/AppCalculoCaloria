@@ -60,12 +60,12 @@
         "source": "C:\\Users\\Developer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\f735fe9dce857047d1d10e54ead8ef25\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "D:\\GitHub\\AppCalculoCaloria\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_calculo__calorias.xml.flat",
-        "source": "D:\\GitHub\\AppCalculoCaloria\\app\\src\\main\\res\\layout\\activity_calculo__calorias.xml"
-    },
-    {
         "merged": "D:\\GitHub\\AppCalculoCaloria\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "C:\\Users\\Developer\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\174235b001d753c18b037133cf964d2c\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "D:\\GitHub\\AppCalculoCaloria\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_calculo__calorias.xml.flat",
+        "source": "D:\\GitHub\\AppCalculoCaloria\\app\\src\\main\\res\\layout\\activity_calculo__calorias.xml"
     },
     {
         "merged": "D:\\GitHub\\AppCalculoCaloria\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -206,6 +206,10 @@
     {
         "merged": "D:\\GitHub\\AppCalculoCaloria\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\Developer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\f735fe9dce857047d1d10e54ead8ef25\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\GitHub\\AppCalculoCaloria\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_historico_tmb.xml.flat",
+        "source": "D:\\GitHub\\AppCalculoCaloria\\app\\src\\main\\res\\layout\\activity_historico_tmb.xml"
     },
     {
         "merged": "D:\\GitHub\\AppCalculoCaloria\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_bar.xml.flat",
