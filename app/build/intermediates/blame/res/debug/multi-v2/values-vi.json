@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\GitHub\\AppCalculoCaloria\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-vi\\values-vi.xml",
+            "outputFile": "E:\\UVA\\ProgDispMov\\AppCalculoClone\\AppCalculoCaloria\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-vi\\values-vi.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Developer\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\174235b001d753c18b037133cf964d2c\\res\\values-vi\\values-vi.xml",
+                    "source": "C:\\Users\\amand\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\60895d5e44a7036de139ffefdc9b7e2d\\res\\values-vi\\values-vi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,219,327,436,520,623,742,819,896,980,1084,1193,1294,1399,1513,1618,1775,1874",
+                        "endColumns": "113,107,108,83,102,118,76,76,83,103,108,100,104,113,104,156,98,83",
+                        "endOffsets": "214,322,431,515,618,737,814,891,975,1079,1188,1289,1394,1508,1613,1770,1869,1953"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\amand\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\c89db832fdeb70791fbdeac720a2cf5d\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -18,16 +28,6 @@
                         "startOffsets": "1958",
                         "endColumns": "100",
                         "endOffsets": "2054"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Developer\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\f735fe9dce857047d1d10e54ead8ef25\\res\\values-vi\\values-vi.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,219,327,436,520,623,742,819,896,980,1084,1193,1294,1399,1513,1618,1775,1874",
-                        "endColumns": "113,107,108,83,102,118,76,76,83,103,108,100,104,113,104,156,98,83",
-                        "endOffsets": "214,322,431,515,618,737,814,891,975,1079,1188,1289,1394,1508,1613,1770,1869,1953"
                     }
                 }
             ]

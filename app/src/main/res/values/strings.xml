@@ -16,4 +16,5 @@
     <string name="resultado4">Obesidade</string>
     <string name="resultado5">Obesidade Severa</string>
     <string name="resultado6">Obesidade Mórbida</string>
+    <string name="voltar_ao_menu">Voltar ao Menu</string>
 </resources>

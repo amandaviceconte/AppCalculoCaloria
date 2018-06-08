@@ -1,4 +1,4 @@
-#Mon May 28 16:41:51 BRT 2018
-base.0=D\:\\GitHub\\AppCalculoCaloria\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\19
+#Fri Jun 08 08:35:37 BRT 2018
+base.0=E\:\\UVA\\ProgDispMov\\AppCalculoClone\\AppCalculoCaloria\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
 path.0=classes.dex
 renamed.0=classes.dex

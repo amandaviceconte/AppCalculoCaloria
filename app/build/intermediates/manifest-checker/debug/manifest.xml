@@ -17,7 +17,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.matheuseamanda.calculoimc.Inicio" >
+        <activity android:name="com.matheuseamanda.calculoimc.Home_Activity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,6 +26,12 @@
         </activity>
         <activity android:name="com.matheuseamanda.calculoimc.CalculoIMC" />
         <activity android:name="com.matheuseamanda.calculoimc.resultado" />
+        <activity android:name="com.matheuseamanda.calculoimc.Calculo_Calorias" />
+        <activity android:name="com.matheuseamanda.calculoimc.Activity_IMC" />
+        <activity android:name="com.matheuseamanda.calculoimc.Activity_Calorias" />
+        <activity android:name="com.matheuseamanda.calculoimc.activity_calorias_resultado" />
+        <activity android:name="com.matheuseamanda.calculoimc.Historico_IMC" />
+        <activity android:name="com.matheuseamanda.calculoimc.historico_tmb" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
