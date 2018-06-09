@@ -54,7 +54,7 @@
             android:id="@+id/pegarPeso"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Digite seu peso: "
+            android:hint="Digite seu peso (kg): "
             android:inputType="numberDecimal" />
 
     </android.support.design.widget.TextInputLayout>
@@ -87,7 +87,7 @@
             android:id="@+id/pegarAltura"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Digite sua altura:"
+            android:hint="Digite sua altura (cm):"
             android:inputType="numberDecimal" />
     </android.support.design.widget.TextInputLayout>
 

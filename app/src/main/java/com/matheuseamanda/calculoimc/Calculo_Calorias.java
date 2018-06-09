@@ -58,21 +58,22 @@ public class Calculo_Calorias extends AppCompatActivity {
                         if (peso < 1000) {
                             pesoTemp = peso;
                         } else {
+                            Toast.makeText(Calculo_Calorias.this, "Peso deve ser menor que 1000kg.", Toast.LENGTH_LONG).show();
                             throw new IllegalArgumentException();
                         }
-
                         altura = Double.parseDouble(alturaText.getText().toString());
-                        if(altura < 2.50)
+                        if(altura < 250)
                         {
+                            Toast.makeText(Calculo_Calorias.this, "Altura deve ser menor que 2.50m.", Toast.LENGTH_LONG).show();
                             alturaTemp = altura;
-                        }else{
+                        } else {
                             throw new IllegalArgumentException();
                         }
                         idade = Integer.parseInt(idadeText.getText().toString());
                         if(idade > 110)
                         {
                             throw new IllegalArgumentException();
-                        }else{
+                        } else {
                             idadeTemp = idade;
                         }
 
@@ -87,11 +88,11 @@ public class Calculo_Calorias extends AppCompatActivity {
 
                         // Caso haja algum erro a aplicação gera uma excessão e um mensagem de erro//
                     }catch (IllegalArgumentException ia){
-                        Toast.makeText(Calculo_Calorias.this, "Insira um valor válido.", Toast.LENGTH_LONG).show();
+                        Toast.makeText(Calculo_Calorias.this, "Por favor, insira um valor válido.", Toast.LENGTH_LONG).show();
                     }catch (ArithmeticException e){
-                        Toast.makeText(Calculo_Calorias.this, "Por favor. Insira os valores corretamente. ", Toast.LENGTH_LONG).show();
+                        Toast.makeText(Calculo_Calorias.this, "Por favor, insira um valor válido.", Toast.LENGTH_LONG).show();
                     }catch (Exception ex){
-                        Toast.makeText(Calculo_Calorias.this, "Por favor. Insira os valores corretamente. ", Toast.LENGTH_LONG).show();
+                        Toast.makeText(Calculo_Calorias.this, "Por favor, insira um valor válido.", Toast.LENGTH_LONG).show();
                     }
                     radio = true;
                 }
@@ -106,7 +107,7 @@ public class Calculo_Calorias extends AppCompatActivity {
                         }
 
                         altura = Double.parseDouble(alturaText.getText().toString());
-                        if(altura < 2.50)
+                        if(altura < 250)
                         {
                             alturaTemp = altura;
                         }else{

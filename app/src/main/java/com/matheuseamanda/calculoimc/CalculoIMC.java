@@ -43,7 +43,7 @@ public class CalculoIMC extends AppCompatActivity {
                     double altura = Double.parseDouble(pegarAltura.getText().toString());
 
                     //Calculando valor do resultado final e formatando para limitar as casas decimais//
-                    resultadoFinal = peso / (altura * altura);
+                    resultadoFinal = (peso) / ((altura * altura) / 10000);
                     BigDecimal bd = new BigDecimal(resultadoFinal).setScale(1, RoundingMode.HALF_EVEN);
 
                     /*Não achei nenhuma forma de passar o falor formatado para a activity "resultado"
@@ -52,35 +52,34 @@ public class CalculoIMC extends AppCompatActivity {
                     resultadoConcatenado = bd.doubleValue();
 
                     //Definindo a classificação de IMC do usuário de acordo com o valor do resultado final//
-                    if(resultadoFinal <= 18.5)
-                    {
+                    if(resultadoFinal <= 18.5) {
                         classficacao = "Abaixo do peso";
                     }
-                    if(resultadoFinal >= 18 && resultadoFinal <= 24.9)
-                    {
+                    if(resultadoFinal >= 18 && resultadoFinal <= 24.9) {
+                        Toast.makeText(CalculoIMC.this, "Peso Ideal", Toast.LENGTH_LONG).show();
                         classficacao = "Peso Ideal";
                     }
-                    if(resultadoFinal >= 25 && resultadoFinal <= 29.9)
-                    {
+                    if(resultadoFinal >= 25 && resultadoFinal <= 29.9) {
+                        Toast.makeText(CalculoIMC.this, "Acima do peso", Toast.LENGTH_LONG).show();
                         classficacao = "Acima do peso";
                     }
-                    if(resultadoFinal >= 30 && resultadoFinal <= 34.9)
-                    {
+                    if(resultadoFinal >= 30 && resultadoFinal <= 34.9) {
+                        Toast.makeText(CalculoIMC.this, "Obesidade", Toast.LENGTH_LONG).show();
                         classficacao = "Obesidade";
                     }
-                    if(resultadoFinal >= 35 && resultadoFinal <= 40)
-                    {
+                    if(resultadoFinal >= 35 && resultadoFinal <= 40) {
+                        Toast.makeText(CalculoIMC.this, "Obesidade Severa", Toast.LENGTH_LONG).show();
                         classficacao = "Obesidade Severa";
                     }
-                    if(resultadoFinal > 40)
-                    {
-                        classficacao = "Obesidade mórbida";
+                    if(resultadoFinal > 40) {
+                        Toast.makeText(CalculoIMC.this, "Obesidade Mórbida", Toast.LENGTH_LONG).show();
+                        classficacao = "Obesidade Mórbida";
                     }
 
                     /* Adicionando valores ao banco de dados e exibindo mensagem de sucesso.
                        bd.doubleValue pega o valor do resultado final formatado. */
                     db.addIMC(new imcSQL(peso, altura, bd.doubleValue(), classficacao));
-                    Toast.makeText(CalculoIMC.this, "Inserido com sucesso", Toast.LENGTH_LONG).show();
+                    //Toast.makeText(CalculoIMC.this, "Inserido com sucesso", Toast.LENGTH_LONG).show();
 
                     //Alternando para tela de resultado//
                     Intent it = new Intent(CalculoIMC.this, resultado.class);

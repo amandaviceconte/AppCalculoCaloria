@@ -33,5 +33,13 @@ public class resultado extends AppCompatActivity {
                 startActivity(it);
             }
         });
+        Button btnIMCRecalcular = (Button) findViewById(R.id.btnRecalcularIMC);
+        btnIMCRecalcular.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(resultado.this, CalculoIMC.class);
+                startActivity(it);
+            }
+        });
     }
 }
