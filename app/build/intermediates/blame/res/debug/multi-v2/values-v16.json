@@ -4,7 +4,7 @@
             "outputFile": "E:\\UVA\\ProgDispMov\\AppCalculoClone\\AppCalculoCaloria\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\amand\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\60895d5e44a7036de139ffefdc9b7e2d\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\amand\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\5c367ce4b6a1e9595fca3f3312ac7428\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\amand\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\c89db832fdeb70791fbdeac720a2cf5d\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\amand\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\646988d11d218ea36c8f700362be4a59\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

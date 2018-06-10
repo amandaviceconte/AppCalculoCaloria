@@ -25,7 +25,7 @@ public class activity_calorias_resultado extends AppCompatActivity {
 
         /*Toast.makeText(activity_calorias_resultado.this, "Codigo: "+ tmbsql.getCodigo() + "Peso: " + tmbsql.getPeso() + "Altura: " + tmbsql.getAltura()
                 + "Idade: " + tmbsql.getIdade() + "Resultado: " + tmbsql.getResultado() , Toast.LENGTH_LONG).show();*/
-        Button btnTMBVoltarMenu = (Button) findViewById(R.id.voltarMenuBtn);
+        Button btnTMBVoltarMenu = (Button) findViewById(R.id.voltarMenuButton);
         btnTMBVoltarMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -33,6 +33,13 @@ public class activity_calorias_resultado extends AppCompatActivity {
                 startActivity(it);
             }
         });
-
+        Button btnIMCRecalcular = (Button) findViewById(R.id.btnRecalcularIMC);
+        btnIMCRecalcular.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent it = new Intent(activity_calorias_resultado.this, Calculo_Calorias.class);
+                startActivity(it);
+            }
+        });
     }
 }

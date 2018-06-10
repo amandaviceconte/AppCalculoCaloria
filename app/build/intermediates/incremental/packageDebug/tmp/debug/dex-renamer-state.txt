@@ -1,7 +1,4 @@
-#Fri Jun 08 21:54:44 BRT 2018
-base.0=E\:\\UVA\\ProgDispMov\\AppCalculoClone\\AppCalculoCaloria\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\28
-path.1=classes.dex
-renamed.1=classes2.dex
+#Sat Jun 09 23:57:17 BRT 2018
+base.0=E\:\\UVA\\ProgDispMov\\AppCalculoClone\\AppCalculoCaloria\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\64
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=E\:\\UVA\\ProgDispMov\\AppCalculoClone\\AppCalculoCaloria\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\27

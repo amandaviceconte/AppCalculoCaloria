@@ -1,51 +1,51 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-29:12
-MERGED from [com.android.support:design:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\d95d9b67b7490945af120650b420522e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\60895d5e44a7036de139ffefdc9b7e2d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\6f23755324e97d1f3cda6798a60c00ec\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\2c043ab9d9e735a6f9b34d1e547adb6a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\af5ff56cdddaece8968de008c6fc02a1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\0bed6186b26cb6f2661315ce9de31b33\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\c38aa79787691a0edcf89e865a8461e0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\21f4666bc53b47f13058c4aabb5e453f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\7c2b0b4b816ade9d582cc79b969e2b5b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\e5efbb9d55e8f93fdffdee659ebc098c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\6ca50e6e283a9d41e2301af7e7827aad\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\63b3286227d12fe13f050b28733f4dd8\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\c89db832fdeb70791fbdeac720a2cf5d\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\de3e1a09606e73b37ef53e3993a1bd99\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\6463d9688e0a990c6307df48ca3d2c33\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\bb5cb96af249e4c77f27a017a287e645\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\0c5af54363df3ad9104cbf6364aebf8f\AndroidManifest.xml:17:1-22:12
-INJECTED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-29:12
+ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-40:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\629bdfb383ac0f22181d815e1cd6bb73\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\5c367ce4b6a1e9595fca3f3312ac7428\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\fda9ad466d170264c3d768fde29fa3c8\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\6295ff0658cb7020327427138e05b141\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\5f59a89bb480c75dbd0d4edb809c04a6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\e8ab4472e2171d88dc0750a5bbfcd2d5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\557e02ce37fb45ad210aefb9aad77324\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\5e87df3afb72d72bc3e5911edad52309\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\bdbc41babd322df547926b7562d286e3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\d6682093ac58167863127dd0593f0fa6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\fab1b5eaac9fccab8dbd314e0d2cedaf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\29a52a884956d6efd4644648f2116e27\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\646988d11d218ea36c8f700362be4a59\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\ed1ae61d6f81d11327a607da153b22c8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\64484dd1fb180616bfa1e23cb38514c8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\39890ed71ba0751f4ca6bd47946afde9\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\39b5861ddf79d2383a23143cbd0df550\AndroidManifest.xml:17:1-22:12
+INJECTED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-40:12
 	package
 		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:3:5-44
 		INJECTED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml
 		INJECTED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml
-		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-29:12
+		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-40:12
 		INJECTED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml
-		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-29:12
+		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:1-40:12
 		INJECTED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:5:5-27:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\6f23755324e97d1f3cda6798a60c00ec\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\6f23755324e97d1f3cda6798a60c00ec\AndroidManifest.xml:9:5-20
+ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:5:5-38:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\fda9ad466d170264c3d768fde29fa3c8\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\fda9ad466d170264c3d768fde29fa3c8\AndroidManifest.xml:9:5-20
 	android:supportsRtl
 		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:8:9-53
 	android:roundIcon
 		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
@@ -55,89 +55,107 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\am
 	android:theme
 		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.matheuseamanda.calculoimc.Home_Activity
-ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:12:9-19:20
+	android:label
+		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:13:19-44
 	android:name
 		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:12:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
-ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:17:27-74
 activity#com.matheuseamanda.calculoimc.CalculoIMC
-ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:19:9-48
+ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:20:9-21:48
+	android:label
+		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:21:19-46
 	android:name
-		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:19:19-45
+		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:20:19-45
 activity#com.matheuseamanda.calculoimc.resultado
-ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:20:9-47
+ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:22:9-23:46
+	android:label
+		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:23:19-44
 	android:name
-		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:20:19-44
+		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:22:19-44
 activity#com.matheuseamanda.calculoimc.Calculo_Calorias
-ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:21:9-54
+ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:24:9-25:48
+	android:label
+		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:25:19-46
 	android:name
-		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:21:19-51
+		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:24:19-51
 activity#com.matheuseamanda.calculoimc.Activity_IMC
-ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:22:9-50
+ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:26:9-27:48
+	android:label
+		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:27:19-46
 	android:name
-		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:22:19-47
+		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:26:19-47
 activity#com.matheuseamanda.calculoimc.Activity_Calorias
-ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:23:9-55
+ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:28:9-29:48
+	android:label
+		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:29:19-46
 	android:name
-		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:23:19-52
+		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:28:19-52
 activity#com.matheuseamanda.calculoimc.activity_calorias_resultado
-ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:24:9-65
+ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:30:9-31:46
+	android:label
+		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:31:19-44
 	android:name
-		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:24:19-62
+		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:30:19-62
 activity#com.matheuseamanda.calculoimc.Historico_IMC
-ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:25:9-51
+ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:32:9-33:50
+	android:label
+		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:33:19-48
 	android:name
-		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:25:19-48
+		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:32:19-48
 activity#com.matheuseamanda.calculoimc.historico_tmb
-ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:26:9-60
+ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:34:9-37:20
+	android:label
+		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:35:19-48
 	android:name
-		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:26:19-48
+		ADDED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml:34:19-48
 uses-sdk
 INJECTED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml
 INJECTED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:design:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\d95d9b67b7490945af120650b420522e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\d95d9b67b7490945af120650b420522e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\60895d5e44a7036de139ffefdc9b7e2d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\60895d5e44a7036de139ffefdc9b7e2d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\6f23755324e97d1f3cda6798a60c00ec\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\6f23755324e97d1f3cda6798a60c00ec\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\2c043ab9d9e735a6f9b34d1e547adb6a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\2c043ab9d9e735a6f9b34d1e547adb6a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\af5ff56cdddaece8968de008c6fc02a1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\af5ff56cdddaece8968de008c6fc02a1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\0bed6186b26cb6f2661315ce9de31b33\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\0bed6186b26cb6f2661315ce9de31b33\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\c38aa79787691a0edcf89e865a8461e0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\c38aa79787691a0edcf89e865a8461e0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\21f4666bc53b47f13058c4aabb5e453f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\21f4666bc53b47f13058c4aabb5e453f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\7c2b0b4b816ade9d582cc79b969e2b5b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\7c2b0b4b816ade9d582cc79b969e2b5b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\e5efbb9d55e8f93fdffdee659ebc098c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\e5efbb9d55e8f93fdffdee659ebc098c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\6ca50e6e283a9d41e2301af7e7827aad\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\6ca50e6e283a9d41e2301af7e7827aad\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\63b3286227d12fe13f050b28733f4dd8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\63b3286227d12fe13f050b28733f4dd8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\c89db832fdeb70791fbdeac720a2cf5d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\c89db832fdeb70791fbdeac720a2cf5d\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\de3e1a09606e73b37ef53e3993a1bd99\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\de3e1a09606e73b37ef53e3993a1bd99\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\6463d9688e0a990c6307df48ca3d2c33\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\6463d9688e0a990c6307df48ca3d2c33\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\bb5cb96af249e4c77f27a017a287e645\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\bb5cb96af249e4c77f27a017a287e645\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\0c5af54363df3ad9104cbf6364aebf8f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\0c5af54363df3ad9104cbf6364aebf8f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\629bdfb383ac0f22181d815e1cd6bb73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\629bdfb383ac0f22181d815e1cd6bb73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\5c367ce4b6a1e9595fca3f3312ac7428\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\5c367ce4b6a1e9595fca3f3312ac7428\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\fda9ad466d170264c3d768fde29fa3c8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.0.aar\fda9ad466d170264c3d768fde29fa3c8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\6295ff0658cb7020327427138e05b141\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\6295ff0658cb7020327427138e05b141\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\5f59a89bb480c75dbd0d4edb809c04a6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\5f59a89bb480c75dbd0d4edb809c04a6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\e8ab4472e2171d88dc0750a5bbfcd2d5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\e8ab4472e2171d88dc0750a5bbfcd2d5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\557e02ce37fb45ad210aefb9aad77324\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\557e02ce37fb45ad210aefb9aad77324\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\5e87df3afb72d72bc3e5911edad52309\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\5e87df3afb72d72bc3e5911edad52309\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\bdbc41babd322df547926b7562d286e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\bdbc41babd322df547926b7562d286e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\d6682093ac58167863127dd0593f0fa6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\d6682093ac58167863127dd0593f0fa6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\fab1b5eaac9fccab8dbd314e0d2cedaf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\fab1b5eaac9fccab8dbd314e0d2cedaf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\29a52a884956d6efd4644648f2116e27\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\29a52a884956d6efd4644648f2116e27\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\646988d11d218ea36c8f700362be4a59\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\646988d11d218ea36c8f700362be4a59\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\ed1ae61d6f81d11327a607da153b22c8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\ed1ae61d6f81d11327a607da153b22c8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\64484dd1fb180616bfa1e23cb38514c8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\64484dd1fb180616bfa1e23cb38514c8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\39890ed71ba0751f4ca6bd47946afde9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\39890ed71ba0751f4ca6bd47946afde9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\39b5861ddf79d2383a23143cbd0df550\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\amand\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\39b5861ddf79d2383a23143cbd0df550\AndroidManifest.xml:20:5-44
 INJECTED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml
 INJECTED from E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion

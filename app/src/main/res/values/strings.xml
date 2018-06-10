@@ -17,4 +17,6 @@
     <string name="resultado5">Obesidade Severa</string>
     <string name="resultado6">Obesidade Mórbida</string>
     <string name="voltar_ao_menu">Voltar ao Menu</string>
+    <string name="calculo_imc">Calculo IMC</string>
+    <string name="calculador_imc_e_tmb">Calculador IMC e TMB</string>
 </resources>

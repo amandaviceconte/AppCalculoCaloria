@@ -9,15 +9,13 @@
     <TextView
         android:id="@+id/txtCalculoTMB"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="77dp"
-        android:layout_marginLeft="77dp"
-        android:layout_marginRight="77dp"
-        android:layout_marginStart="77dp"
+        android:layout_height="55dp"
         android:layout_marginTop="24dp"
-        android:text="Calculo TMB"
+        android:gravity="center"
+        android:text="PREENCHA ABAIXO"
+        android:textAllCaps="false"
         android:textColor="@android:color/black"
-        android:textSize="36sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,7 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="123dp"
         android:layout_marginStart="123dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="32dp"
         android:text="Sexo:"
         android:textColor="@android:color/black"
         android:textSize="18sp"
@@ -45,7 +43,7 @@
         android:layout_marginLeft="1dp"
         android:layout_marginRight="129dp"
         android:layout_marginStart="1dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/lblSexo"
         app:layout_constraintTop_toBottomOf="@+id/txtCalculoTMB">
@@ -56,6 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Mulher"
+            android:textColor="#595959"
             android:textSize="16sp" />
 
         <RadioButton
@@ -64,6 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Homem"
+            android:textColor="#595959"
             android:textSize="16sp" />
     </RadioGroup>
 
@@ -75,7 +75,7 @@
         android:layout_marginLeft="172dp"
         android:layout_marginRight="171dp"
         android:layout_marginStart="172dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="8dp"
         android:text="Peso"
         android:textColor="@android:color/black"
         android:textSize="18sp"
@@ -92,7 +92,6 @@
         android:layout_marginLeft="100dp"
         android:layout_marginRight="99dp"
         android:layout_marginStart="100dp"
-        android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toStartOf="parent"
@@ -102,7 +101,7 @@
             android:id="@+id/txtPeso"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Digite seu peso:"
+            android:hint="Digite seu peso (kg):"
             android:inputType="numberDecimal"
             android:textSize="18sp" />
     </android.support.design.widget.TextInputLayout>
@@ -132,7 +131,6 @@
         android:layout_marginLeft="100dp"
         android:layout_marginRight="99dp"
         android:layout_marginStart="100dp"
-        android:layout_marginTop="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toStartOf="parent"
@@ -142,7 +140,7 @@
             android:id="@+id/txtAltura"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Digite sua altura:"
+            android:hint="Digite sua altura (cm):"
             android:inputType="numberDecimal" />
     </android.support.design.widget.TextInputLayout>
 
@@ -156,7 +154,7 @@
         android:layout_marginStart="170dp"
         android:layout_marginTop="8dp"
         android:text="Idade"
-        android:textColor="@android:color/background_dark"
+        android:textColor="@android:color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -170,7 +168,6 @@
         android:layout_marginLeft="86dp"
         android:layout_marginRight="86dp"
         android:layout_marginStart="86dp"
-        android:layout_marginTop="7dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblIdade">
@@ -185,19 +182,17 @@
 
     <Button
         android:id="@+id/btnCalcular"
-        android:layout_width="189dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="97dp"
-        android:layout_marginLeft="98dp"
-        android:layout_marginRight="97dp"
-        android:layout_marginStart="98dp"
-        android:layout_marginTop="12dp"
+        android:layout_marginBottom="33dp"
+        android:layout_marginTop="24dp"
         android:background="@color/colorPrimaryDark"
         android:text="Calcular"
         android:textColor="@android:color/background_light"
-        android:textSize="18sp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputIdade" />
 

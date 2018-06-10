@@ -17,7 +17,7 @@ import java.math.RoundingMode;
 public class Calculo_Calorias extends AppCompatActivity {
     public static double TMB;
     public static double peso;
-    public static double altura;
+    public static int altura;
     public static int idade;
 
     private double pesoTemp;
@@ -55,26 +55,27 @@ public class Calculo_Calorias extends AppCompatActivity {
                     {
                         //Adicionando o valor digitado pelo usuário à variável peso e altura//
                         peso = Double.parseDouble(pesoText.getText().toString());
-                        if (peso < 1000) {
+                        if (peso < 800) {
                             pesoTemp = peso;
                         } else {
-                            Toast.makeText(Calculo_Calorias.this, "Peso deve ser menor que 1000kg.", Toast.LENGTH_LONG).show();
+                            Toast.makeText(Calculo_Calorias.this, "Peso deve ser menor que 800kg.", Toast.LENGTH_LONG).show();
                             throw new IllegalArgumentException();
                         }
-                        altura = Double.parseDouble(alturaText.getText().toString());
-                        if(altura < 250)
+                        altura = Integer.parseInt(alturaText.getText().toString());
+                        if(altura < 280)
                         {
-                            Toast.makeText(Calculo_Calorias.this, "Altura deve ser menor que 2.50m.", Toast.LENGTH_LONG).show();
                             alturaTemp = altura;
                         } else {
+                            Toast.makeText(Calculo_Calorias.this, "Altura deve ser menor que 280cm.", Toast.LENGTH_LONG).show();
                             throw new IllegalArgumentException();
                         }
                         idade = Integer.parseInt(idadeText.getText().toString());
-                        if(idade > 110)
+                        if(idade < 150)
                         {
-                            throw new IllegalArgumentException();
-                        } else {
                             idadeTemp = idade;
+                        } else {
+                            Toast.makeText(Calculo_Calorias.this, "Idade deve ser menor que 150.", Toast.LENGTH_LONG).show();
+                            throw new IllegalArgumentException();
                         }
 
                         TMB = 655 + (9.6 * peso) + (1.8 * altura) - (4.7 * idade);
@@ -100,25 +101,28 @@ public class Calculo_Calorias extends AppCompatActivity {
                 if(homem.isChecked()) {
                     try {
                         peso = Double.parseDouble(pesoText.getText().toString());
-                        if (peso < 1000) {
+                        if (peso < 800) {
                             pesoTemp = peso;
                         } else {
+                            Toast.makeText(Calculo_Calorias.this, "Peso deve ser menor que 800kg.", Toast.LENGTH_LONG).show();
                             throw new IllegalArgumentException();
                         }
 
-                        altura = Double.parseDouble(alturaText.getText().toString());
-                        if(altura < 250)
+                        altura = Integer.parseInt(alturaText.getText().toString());
+                        if(altura < 280)
                         {
                             alturaTemp = altura;
-                        }else{
+                        } else {
+                            Toast.makeText(Calculo_Calorias.this, "Altura deve ser menor que 280cm.", Toast.LENGTH_LONG).show();
                             throw new IllegalArgumentException();
                         }
                         idade = Integer.parseInt(idadeText.getText().toString());
-                        if(idade > 110)
+                        if(idade < 150)
                         {
-                            throw new IllegalArgumentException();
-                        }else{
                             idadeTemp = idade;
+                        }else{
+                            Toast.makeText(Calculo_Calorias.this, "Idade deve ser menor que 150.", Toast.LENGTH_LONG).show();
+                            throw new IllegalArgumentException();
                         }
 
                         TMB = 66 + (13.7 * peso) + (5 * altura) - (6.8 * idade);

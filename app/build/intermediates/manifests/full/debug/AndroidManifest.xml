@@ -12,26 +12,44 @@
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="@string/calculador_imc_e_tmb"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.matheuseamanda.calculoimc.Home_Activity" >
+        <activity
+            android:name="com.matheuseamanda.calculoimc.Home_Activity"
+            android:label="IMC e TMB" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.matheuseamanda.calculoimc.CalculoIMC" />
-        <activity android:name="com.matheuseamanda.calculoimc.resultado" />
-        <activity android:name="com.matheuseamanda.calculoimc.Calculo_Calorias" />
-        <activity android:name="com.matheuseamanda.calculoimc.Activity_IMC" />
-        <activity android:name="com.matheuseamanda.calculoimc.Activity_Calorias" />
-        <activity android:name="com.matheuseamanda.calculoimc.activity_calorias_resultado" />
-        <activity android:name="com.matheuseamanda.calculoimc.Historico_IMC" />
-        <activity android:name="com.matheuseamanda.calculoimc.historico_tmb" />
+        <activity
+            android:name="com.matheuseamanda.calculoimc.CalculoIMC"
+            android:label="Calculo IMC" />
+        <activity
+            android:name="com.matheuseamanda.calculoimc.resultado"
+            android:label="Resultado" />
+        <activity
+            android:name="com.matheuseamanda.calculoimc.Calculo_Calorias"
+            android:label="Calculo TMB" />
+        <activity
+            android:name="com.matheuseamanda.calculoimc.Activity_IMC"
+            android:label="Informativo" />
+        <activity
+            android:name="com.matheuseamanda.calculoimc.Activity_Calorias"
+            android:label="Informativo" />
+        <activity
+            android:name="com.matheuseamanda.calculoimc.activity_calorias_resultado"
+            android:label="Resultado" />
+        <activity
+            android:name="com.matheuseamanda.calculoimc.Historico_IMC"
+            android:label="Histórico IMC" />
+        <activity
+            android:name="com.matheuseamanda.calculoimc.historico_tmb"
+            android:label="Histórico TMB" >
+        </activity>
     </application>
 
 </manifest>

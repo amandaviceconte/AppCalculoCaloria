@@ -2,58 +2,46 @@
 <instant-run
     abi="x86"
     api-level="25"
-    build-mode="HOT_WARM"
+    build-mode="COLD"
     density="xhdpi"
     format="10"
-    plugin-version="3.1.1"
-    timestamp="1528506156449"
+    plugin-version="3.1.2"
+    timestamp="1528599341387"
     token="-5977704842390811415"
-    verifier="COMPATIBLE" >
+    verifier="FIELD_REMOVED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="392" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="69" />
     <task
         name="verifier"
-        duration="0" />
+        duration="5" />
 
     <artifact
-        location="E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1528505665959"
-        verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-        <artifact
-            location="E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
+        timestamp="1528599082147"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
             location="E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -62,35 +50,31 @@
             location="E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
+            location="E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            type="SPLIT" />
+        <artifact
             location="E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
             location="E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
+        <artifact
+            location="E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
     <build
-        build-mode="HOT_WARM"
-        timestamp="1528505883177"
-        verifier="COMPATIBLE" >
+        build-mode="COLD"
+        timestamp="1528599341387"
+        verifier="FIELD_REMOVED" >
         <artifact
-            location="E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\build\intermediates\builds\debug\1528505883177\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1528505962564"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\build\intermediates\builds\debug\1528505962564\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1528506156449"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
+            location="E:\UVA\ProgDispMov\AppCalculoClone\AppCalculoCaloria\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>

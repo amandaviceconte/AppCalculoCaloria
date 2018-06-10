@@ -88,21 +88,21 @@ public final class R {
         public static final int icon_group = 0x7f08005c;
         public static final int info = 0x7f080060;
         public static final int italic = 0x7f080062;
-        public static final int left = 0x7f08006a;
-        public static final int line1 = 0x7f08006b;
-        public static final int line3 = 0x7f08006c;
-        public static final int none = 0x7f08007a;
-        public static final int normal = 0x7f08007b;
-        public static final int notification_background = 0x7f08007c;
-        public static final int notification_main_column = 0x7f08007d;
-        public static final int notification_main_column_container = 0x7f08007e;
-        public static final int right = 0x7f08008f;
-        public static final int right_icon = 0x7f080090;
-        public static final int right_side = 0x7f080091;
-        public static final int start = 0x7f0800b6;
-        public static final int tag_transition_group = 0x7f0800bb;
-        public static final int text = 0x7f0800bc;
-        public static final int text2 = 0x7f0800bd;
+        public static final int left = 0x7f080069;
+        public static final int line1 = 0x7f08006a;
+        public static final int line3 = 0x7f08006b;
+        public static final int none = 0x7f080079;
+        public static final int normal = 0x7f08007a;
+        public static final int notification_background = 0x7f08007b;
+        public static final int notification_main_column = 0x7f08007c;
+        public static final int notification_main_column_container = 0x7f08007d;
+        public static final int right = 0x7f08008e;
+        public static final int right_icon = 0x7f08008f;
+        public static final int right_side = 0x7f080090;
+        public static final int start = 0x7f0800b5;
+        public static final int tag_transition_group = 0x7f0800ba;
+        public static final int text = 0x7f0800bb;
+        public static final int text2 = 0x7f0800bc;
         public static final int time = 0x7f0800d9;
         public static final int title = 0x7f0800da;
         public static final int top = 0x7f0800dd;
@@ -119,7 +119,7 @@ public final class R {
         public static final int notification_template_part_time = 0x7f0a0040;
     }
     public static final class string {
-        public static final int status_bar_notification_info_overflow = 0x7f0c0037;
+        public static final int status_bar_notification_info_overflow = 0x7f0c0039;
     }
     public static final class style {
         public static final int TextAppearance_Compat_Notification = 0x7f0d00ed;

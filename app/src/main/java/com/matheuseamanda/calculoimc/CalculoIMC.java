@@ -24,6 +24,7 @@ public class CalculoIMC extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calculo_imc);
 
@@ -32,7 +33,6 @@ public class CalculoIMC extends AppCompatActivity {
         final TextInputEditText pegarAltura = (TextInputEditText) findViewById(R.id.pegarAltura);
 
         Button calcular = (Button) findViewById(R.id.ButtonCalcular);
-
         //Botao de calcular
         calcular.setOnClickListener(new View.OnClickListener(){
             public void onClick(View c)
@@ -53,6 +53,7 @@ public class CalculoIMC extends AppCompatActivity {
 
                     //Definindo a classificação de IMC do usuário de acordo com o valor do resultado final//
                     if(resultadoFinal <= 18.5) {
+                        Toast.makeText(CalculoIMC.this, "Abaixo do Peso", Toast.LENGTH_LONG).show();
                         classficacao = "Abaixo do peso";
                     }
                     if(resultadoFinal >= 18 && resultadoFinal <= 24.9) {
@@ -60,7 +61,7 @@ public class CalculoIMC extends AppCompatActivity {
                         classficacao = "Peso Ideal";
                     }
                     if(resultadoFinal >= 25 && resultadoFinal <= 29.9) {
-                        Toast.makeText(CalculoIMC.this, "Acima do peso", Toast.LENGTH_LONG).show();
+                        Toast.makeText(CalculoIMC.this, "Acima do Peso", Toast.LENGTH_LONG).show();
                         classficacao = "Acima do peso";
                     }
                     if(resultadoFinal >= 30 && resultadoFinal <= 34.9) {
@@ -87,9 +88,9 @@ public class CalculoIMC extends AppCompatActivity {
 
                 // Caso haja algum erro a aplicação gera uma excessão e um mensagem de erro//
                 }catch (ArithmeticException e){
-                    Toast.makeText(CalculoIMC.this, "Por favor. Insira os valores corretamente. ", Toast.LENGTH_LONG).show();
+                    Toast.makeText(CalculoIMC.this, "Por favor, insira um valor válido.", Toast.LENGTH_LONG).show();
                 }catch (Exception ex){
-                    Toast.makeText(CalculoIMC.this, "Por favor. Insira os valores corretamente. ", Toast.LENGTH_LONG).show();
+                    Toast.makeText(CalculoIMC.this, "Por favor, insira um valor válido.", Toast.LENGTH_LONG).show();
                 }
             }
         });
