@@ -36,7 +36,7 @@ public class Historico_IMC extends AppCompatActivity {
         ListViewIMC.setAdapter(adapter);
 
         for(imcSQL i : imcsqls){
-            arrayList.add(i.getCodigo() + " - " + i.getPeso() + " - " + i.getAltura() + " - " + i.getResultado() + " - " + i.getClassificacao());
+            arrayList.add(i.getCodigo() + "  -  " + i.getPeso() + "   -  " + i.getAltura() + "    -     " + i.getResultado() + "   -  " + i.getClassificacao());
             adapter.notifyDataSetChanged();
         }
     }

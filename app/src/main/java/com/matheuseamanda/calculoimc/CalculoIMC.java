@@ -43,7 +43,7 @@ public class CalculoIMC extends AppCompatActivity {
                     double altura = Double.parseDouble(pegarAltura.getText().toString());
 
                     //Calculando valor do resultado final e formatando para limitar as casas decimais//
-                    resultadoFinal = (peso) / ((altura * altura) / 10000);
+                    resultadoFinal = peso / (altura * altura);
                     BigDecimal bd = new BigDecimal(resultadoFinal).setScale(1, RoundingMode.HALF_EVEN);
 
                     /*Não achei nenhuma forma de passar o falor formatado para a activity "resultado"
@@ -80,7 +80,6 @@ public class CalculoIMC extends AppCompatActivity {
                     /* Adicionando valores ao banco de dados e exibindo mensagem de sucesso.
                        bd.doubleValue pega o valor do resultado final formatado. */
                     db.addIMC(new imcSQL(peso, altura, bd.doubleValue(), classficacao));
-                    //Toast.makeText(CalculoIMC.this, "Inserido com sucesso", Toast.LENGTH_LONG).show();
 
                     //Alternando para tela de resultado//
                     Intent it = new Intent(CalculoIMC.this, resultado.class);

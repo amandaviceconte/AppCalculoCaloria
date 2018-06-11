@@ -2034,7 +2034,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>for now only direct & barriers</td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>3</td><td></td></tr>
      * </table>
@@ -3838,42 +3838,46 @@ public final class R {
     public static final int textView15=0x7f0800cb;
     public static final int textView16=0x7f0800cc;
     public static final int textView17=0x7f0800cd;
-    public static final int textView2=0x7f0800ce;
-    public static final int textView3=0x7f0800cf;
-    public static final int textView4=0x7f0800d0;
-    public static final int textView5=0x7f0800d1;
-    public static final int textView6=0x7f0800d2;
-    public static final int textView7=0x7f0800d3;
-    public static final int textView8=0x7f0800d4;
-    public static final int textView9=0x7f0800d5;
-    public static final int text_input_password_toggle=0x7f0800d6;
-    public static final int textinput_counter=0x7f0800d7;
-    public static final int textinput_error=0x7f0800d8;
-    public static final int time=0x7f0800d9;
-    public static final int title=0x7f0800da;
-    public static final int titleDividerNoCustom=0x7f0800db;
-    public static final int title_template=0x7f0800dc;
-    public static final int top=0x7f0800dd;
-    public static final int topPanel=0x7f0800de;
-    public static final int touch_outside=0x7f0800df;
-    public static final int transition_current_scene=0x7f0800e0;
-    public static final int transition_layout_save=0x7f0800e1;
-    public static final int transition_position=0x7f0800e2;
-    public static final int transition_scene_layoutid_cache=0x7f0800e3;
-    public static final int transition_transform=0x7f0800e4;
-    public static final int txtAltura=0x7f0800e5;
-    public static final int txtCalculoTMB=0x7f0800e6;
-    public static final int txtIdade=0x7f0800e7;
-    public static final int txtPeso=0x7f0800e8;
-    public static final int uniform=0x7f0800e9;
-    public static final int up=0x7f0800ea;
-    public static final int useLogo=0x7f0800eb;
-    public static final int view_offset_helper=0x7f0800ec;
-    public static final int visible=0x7f0800ed;
-    public static final int voltarMenuButton=0x7f0800ee;
-    public static final int withText=0x7f0800ef;
-    public static final int wrap=0x7f0800f0;
-    public static final int wrap_content=0x7f0800f1;
+    public static final int textView18=0x7f0800ce;
+    public static final int textView19=0x7f0800cf;
+    public static final int textView2=0x7f0800d0;
+    public static final int textView20=0x7f0800d1;
+    public static final int textView21=0x7f0800d2;
+    public static final int textView3=0x7f0800d3;
+    public static final int textView4=0x7f0800d4;
+    public static final int textView5=0x7f0800d5;
+    public static final int textView6=0x7f0800d6;
+    public static final int textView7=0x7f0800d7;
+    public static final int textView8=0x7f0800d8;
+    public static final int textView9=0x7f0800d9;
+    public static final int text_input_password_toggle=0x7f0800da;
+    public static final int textinput_counter=0x7f0800db;
+    public static final int textinput_error=0x7f0800dc;
+    public static final int time=0x7f0800dd;
+    public static final int title=0x7f0800de;
+    public static final int titleDividerNoCustom=0x7f0800df;
+    public static final int title_template=0x7f0800e0;
+    public static final int top=0x7f0800e1;
+    public static final int topPanel=0x7f0800e2;
+    public static final int touch_outside=0x7f0800e3;
+    public static final int transition_current_scene=0x7f0800e4;
+    public static final int transition_layout_save=0x7f0800e5;
+    public static final int transition_position=0x7f0800e6;
+    public static final int transition_scene_layoutid_cache=0x7f0800e7;
+    public static final int transition_transform=0x7f0800e8;
+    public static final int txtAltura=0x7f0800e9;
+    public static final int txtCalculoTMB=0x7f0800ea;
+    public static final int txtIdade=0x7f0800eb;
+    public static final int txtPeso=0x7f0800ec;
+    public static final int uniform=0x7f0800ed;
+    public static final int up=0x7f0800ee;
+    public static final int useLogo=0x7f0800ef;
+    public static final int view_offset_helper=0x7f0800f0;
+    public static final int visible=0x7f0800f1;
+    public static final int voltarMenuButton=0x7f0800f2;
+    public static final int withText=0x7f0800f3;
+    public static final int wrap=0x7f0800f4;
+    public static final int wrap_content=0x7f0800f5;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f090000;
@@ -9122,7 +9126,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td></td></tr>
+     * <tr><td>direct</td><td>1</td><td>for now only direct & barriers</td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>3</td><td></td></tr>
      * </table>
