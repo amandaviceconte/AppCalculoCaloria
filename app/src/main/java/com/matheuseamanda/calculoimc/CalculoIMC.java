@@ -43,7 +43,7 @@ public class CalculoIMC extends AppCompatActivity {
                     double altura = Double.parseDouble(pegarAltura.getText().toString());
 
                     //Calculando valor do resultado final e formatando para limitar as casas decimais//
-                    resultadoFinal = peso / (altura * altura);
+                    resultadoFinal = (peso) / ((altura * altura) / 10000);
                     BigDecimal bd = new BigDecimal(resultadoFinal).setScale(1, RoundingMode.HALF_EVEN);
 
                     /*Não achei nenhuma forma de passar o falor formatado para a activity "resultado"
