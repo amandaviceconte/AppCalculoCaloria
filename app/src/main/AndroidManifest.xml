@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Home_Activity"
-                  android:label="KCalculando">
+                  android:label="Kcalculando">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

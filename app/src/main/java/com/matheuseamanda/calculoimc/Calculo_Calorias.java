@@ -89,11 +89,9 @@ public class Calculo_Calorias extends AppCompatActivity {
 
                         // Caso haja algum erro a aplicação gera uma excessão e um mensagem de erro//
                     }catch (IllegalArgumentException ia){
-                        Toast.makeText(Calculo_Calorias.this, "Por favor, insira um valor válido.", Toast.LENGTH_LONG).show();
                     }catch (ArithmeticException e){
-                        Toast.makeText(Calculo_Calorias.this, "Por favor, insira um valor válido.", Toast.LENGTH_LONG).show();
                     }catch (Exception ex){
-                        Toast.makeText(Calculo_Calorias.this, "Por favor, insira um valor válido.", Toast.LENGTH_LONG).show();
+
                     }
                     radio = true;
                 }
