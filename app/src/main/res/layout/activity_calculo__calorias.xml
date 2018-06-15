@@ -102,7 +102,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Digite seu peso (kg):"
-            android:inputType="numberDecimal"
+            android:inputType="number"
             android:textSize="18sp" />
     </android.support.design.widget.TextInputLayout>
 
@@ -141,7 +141,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Digite sua altura (cm):"
-            android:inputType="numberDecimal" />
+            android:inputType="number" />
     </android.support.design.widget.TextInputLayout>
 
     <TextView

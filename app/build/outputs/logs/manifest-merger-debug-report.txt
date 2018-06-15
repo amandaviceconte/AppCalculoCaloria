@@ -57,7 +57,7 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.0] C:\Users\De
 activity#com.matheuseamanda.calculoimc.Home_Activity
 ADDED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:12:9-19:20
 	android:label
-		ADDED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:13:19-44
+		ADDED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:13:19-46
 	android:name
 		ADDED from D:\GitHub\AppCalculoCaloria\app\src\main\AndroidManifest.xml:12:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER

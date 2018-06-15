@@ -22,10 +22,10 @@ public final class R {
         public static final int abc_action_bar_embed_tabs = 0x7f040000;
     }
     public static final class color {
-        public static final int notification_action_color_filter = 0x7f050049;
-        public static final int notification_icon_bg_color = 0x7f05004a;
-        public static final int ripple_material_light = 0x7f050055;
-        public static final int secondary_text_default_material_light = 0x7f050057;
+        public static final int notification_action_color_filter = 0x7f05004a;
+        public static final int notification_icon_bg_color = 0x7f05004b;
+        public static final int ripple_material_light = 0x7f050056;
+        public static final int secondary_text_default_material_light = 0x7f050058;
     }
     public static final class dimen {
         public static final int compat_button_inset_horizontal_material = 0x7f06004b;
@@ -93,13 +93,13 @@ public final class R {
         public static final int tag_transition_group = 0x7f0800ba;
         public static final int text = 0x7f0800bb;
         public static final int text2 = 0x7f0800bc;
-        public static final int time = 0x7f0800dd;
-        public static final int title = 0x7f0800de;
-        public static final int transition_current_scene = 0x7f0800e4;
-        public static final int transition_layout_save = 0x7f0800e5;
-        public static final int transition_position = 0x7f0800e6;
-        public static final int transition_scene_layoutid_cache = 0x7f0800e7;
-        public static final int transition_transform = 0x7f0800e8;
+        public static final int time = 0x7f0800de;
+        public static final int title = 0x7f0800df;
+        public static final int transition_current_scene = 0x7f0800e5;
+        public static final int transition_layout_save = 0x7f0800e6;
+        public static final int transition_position = 0x7f0800e7;
+        public static final int transition_scene_layoutid_cache = 0x7f0800e8;
+        public static final int transition_transform = 0x7f0800e9;
     }
     public static final class integer {
         public static final int status_bar_notification_info_maxnum = 0x7f090009;

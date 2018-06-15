@@ -15,11 +15,10 @@
         android:label="@string/calculador_imc_e_tmb"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.matheuseamanda.calculoimc.Home_Activity"
-            android:label="IMC e TMB" >
+            android:label="KCalculando" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
